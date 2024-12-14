@@ -414,6 +414,8 @@ body {
 .portfolio-thumb {
     position: relative;
     overflow: hidden;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .portfolio-item:hover,
@@ -501,6 +503,8 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-bottom: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .footer-logo-light {
