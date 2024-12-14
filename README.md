@@ -80,7 +80,7 @@
 - [SVGOMG](https://jakearchibald.github.io/svgomg/)
 - [Modern Normalize](https://cdnjs.com/libraries/modern-normalize)
 
-
+--------------------------------------------------------
 
 # Домашнє завдання: Тема 4. Декоративні ефекти. Анімація
 
