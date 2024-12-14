@@ -58,6 +58,8 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #fff;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .visually-hidden {
@@ -508,9 +510,9 @@ body {
 .footer-text {
     display: block;
     width: 264px;
-    color: #f4f4fd;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
 
 /* #endregion */
