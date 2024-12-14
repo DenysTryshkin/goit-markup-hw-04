@@ -1,3 +1,87 @@
+# Homework: Topic 4. Decorative Effects. Animation
+
+## Assignment Instructions
+
+### Preparation
+1. **Create a new repository** with the name `goit-markup-hw-04`.
+2. **Clone the repository** to your local computer.
+3. **Copy files from the previous assignment** into the new repository.
+4. Add markup and styles according to the requirements of this assignment.
+
+### Working with SVG
+1. **Generate the SVG sprite**:
+   - Use the [Icomoon](https://icomoon.io/) service to create the SVG sprite.
+2. **Optimize the SVG sprite**:
+   - Use the [SVGOMG](https://jakearchibald.github.io/svgomg/) service to optimize the files.
+3. **Place the sprite**:
+   - Add the generated sprite `icons.svg` to the `images` folder.
+
+### Project Styling
+1. **Create the `css` folder** if it does not exist.
+2. Write all styles in one file called `styles.css`, located in the `css` folder.
+3. **Include a style normalizer**:
+   - [modern-normalize](https://cdnjs.com/libraries/modern-normalize).
+
+### Links and Text Styling
+1. **Set up GitHub Pages** for the repository.
+2. Add a link to the live page in the `About` section of your GitHub repository.
+
+---
+
+## Acceptance Criteria for the Mentor
+
+### Project
+- **A1**: There is an `images` folder in the root of the project containing images.
+- **A2**: All vector images are collected in the SVG sprite `icons.svg`, located in the `images` folder.
+- **A3**: All vector images are optimized.
+- **A4**: There is a `css` folder in the root of the project with style files.
+- **A5**: All styles are written in one file `styles.css`.
+- **A6**: The file names do not contain uppercase letters, spaces, or transliteration.
+- **A7**: The code is formatted using Prettier.
+- **A8**: All images and text content match the design mockup.
+- **A9**: A style normalizer is included.
+- **A10**: All styles are written in one file `styles.css`.
+- **A11**: The code follows the provided guidelines.
+
+### Markup
+- **B1**: All icons are implemented using SVG.
+- **B2**: The SVG icons are exported correctly (group selected, not individual vectors).
+- **B3**: Icons from the SVG sprite are added to HTML using `<svg>` and `<use>` tags.
+- **B4**: Icons are added in the advantages section (the section with the list of advantages over "Our Team").
+- **B5**: Social media icons are added in the "Our Team" section.
+- **B7**: Social media icons are added in the footer.
+- **B8**: The HTML markup of all elements follows the design.
+- **B9**: Semantic tags are used properly.
+
+### Styling
+- **C1**: The large image with a darkening effect (under the header) is set as a background with a gradient.
+- **C2**: The background image does not stretch wider than its original size (1440px).
+- **C3**: Cards in the "Our Team" section have a permanent shadow effect.
+- **C4**: Cards in the "Our Portfolio" section have a shadow effect on hover.
+- **C5**: Icons change color on hover or focus, as specified in the design.
+- **C6**: Hover and focus effects (color, background, shadow) use transitions (250ms, `cubic-bezier(0.4, 0, 0.2, 1)`).
+- **C7**: Transitions explicitly list the animated properties (no `all`).
+- **C8**: In the main navigation, the current page link is underlined using the `::after` pseudo-element.
+- **C9**: The overlay with text on cards in the "Our Portfolio" section appears on hover.
+- **C10**: The blue overlay on the "Our Portfolio" cards slides up from the bottom.
+- **C11**: Pseudo-elements do not contain text content in the `content` property and are used exclusively for decoration.
+
+---
+
+## Submission Format
+1. **Link to the live page** (GitHub Pages).
+2. **Link to the repository** with the source files.
+3. **ZIP file of the repository**.
+
+---
+
+## Useful Services
+- [Icomoon](https://icomoon.io/)
+- [SVGOMG](https://jakearchibald.github.io/svgomg/)
+- [Modern Normalize](https://cdnjs.com/libraries/modern-normalize)
+
+
+
 # Домашнє завдання: Тема 4. Декоративні ефекти. Анімація
 
 ## Інструкція щодо виконання завдання
